@@ -4,10 +4,14 @@ After:
   - '#campaignadmin'
 ---
 
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Goldfinch\Cleaner\Extensions\SiteConfigExtension
+
 SilverStripe\CMS\Model\SiteTree:
   extensions:
     - Goldfinch\Cleaner\Extensions\RemoveCampaignAdminExtension
 
-SilverStripe\SiteConfig\SiteConfig:
+SilverStripe\Admin\LeftAndMain:
   extensions:
-    - Goldfinch\Cleaner\Extensions\SiteConfigExtension
+    - Goldfinch\Cleaner\Extensions\RemoveAssetsExtension
