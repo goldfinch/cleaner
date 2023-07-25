@@ -15,3 +15,8 @@ SilverStripe\CMS\Model\SiteTree:
 SilverStripe\Admin\LeftAndMain:
   extensions:
     - Goldfinch\Cleaner\Extensions\RemoveAssetsExtension
+
+SilverStripe\Control\Director:
+  rules:
+    'admin/campaigns': '->admin/'
+    'admin/reports': '->admin/'
