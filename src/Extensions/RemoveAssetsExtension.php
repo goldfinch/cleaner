@@ -1,6 +1,6 @@
 <?php
 
-namespace Goldfinch\Enchantment\Extensions;
+namespace Goldfinch\Cleaner\Extensions;
 
 use Composer\InstalledVersions;
 use SilverStripe\Core\Extension;
