@@ -2,13 +2,12 @@
     "name": "goldfinch/cleaner",
     "description": "",
     "type": "silverstripe-vendormodule",
-    "keywords": [
-        "silverstripe"
-    ],
+    "keywords": ["silverstripe"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Artem Karasev"
+            "name": "Art Karasev",
+            "email": "art.karasev@proton.me"
         }
     ],
     "require": {

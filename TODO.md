@@ -1,0 +1,4 @@
+- remove silverstripe-campaign-admin components
+- remove tagline
+- remove silverstripe-reports components
+- remove unused/abandoned thumbnails

@@ -11,12 +11,9 @@ class RemoveCampaignAdminExtension extends DataExtension
     {
         $tabset = $actions->fieldByName('ActionMenus.MoreOptions');
 
-        if ($tabset)
-        {
-            foreach ($tabset->getChildren() as $tab)
-            {
-                if ($tab->getName() == 'action_addtocampaign')
-                {
+        if ($tabset) {
+            foreach ($tabset->getChildren() as $tab) {
+                if ($tab->getName() == 'action_addtocampaign') {
                     $tabset->removeByName($tab->getName());
                 }
             }

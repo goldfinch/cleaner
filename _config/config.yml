@@ -1,9 +1,8 @@
 ---
 Name: goldfinch-cleaner
 After:
-  - '#campaignadmin'
+  - "#campaignadmin"
 ---
-
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - Goldfinch\Cleaner\Extensions\SiteConfigExtension
@@ -18,5 +17,5 @@ SilverStripe\Admin\LeftAndMain:
 
 SilverStripe\Control\Director:
   rules:
-    'admin/campaigns': '->admin/'
-    'admin/reports': '->admin/'
+    "admin/campaigns": "->admin/"
+    "admin/reports": "->admin/"
